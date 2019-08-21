@@ -1,2 +1,3 @@
-# SchulerStem.github.io
-Schuler STEM resources
+Link to the webpage for this repository
+
+https://gdiazbanuelos.github.io

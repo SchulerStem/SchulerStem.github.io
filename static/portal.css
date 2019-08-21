@@ -1,0 +1,315 @@
+/* Standard class CSS */
+.greyBackground {
+  background-color: #444444;
+}
+
+.blueColor {
+  background-color: red;
+}
+
+.standardText {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.inLineBlock {
+    display: inline-block;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+   float: right;
+}
+
+/* Indentation CSS */
+.indent20px {
+	margin-left: 20px;
+}
+
+.indent40px {
+	margin-left: 2.5%;
+}
+
+.indent60px {
+	margin-left: 60px;
+}
+
+.indent2percent {
+	margin-left: 2%;
+}
+
+.indent5percent {
+	margin-left: 5%;
+}
+
+.indent10percent {
+	margin-left: 10%;
+}
+
+.indent25percent {
+	margin-left: 25%;
+}
+
+.indent33percent {
+	margin-left: 33%;
+}
+
+.indent40percent {
+  margin-left: 40%;
+}
+
+.indent50percent {
+  margin-left: 50%;
+}
+
+.indent66percent {
+	margin-left: 66%;
+}
+
+.TimesNewRoman {
+	font-family: "Times New Roman", Times, serif;
+}
+
+/* Font colors and size CSS */
+.blueText {
+	color: blue;
+}
+
+.purpleText {
+	color: #b042f4;
+}
+
+.redText {
+	color: red;
+}
+
+.greenText {
+	color: green;
+}
+
+.cyanText {
+	color: #28ffb7;
+}
+
+.smokeText {
+  color: WhiteSmoke;
+}
+
+.orangeText {
+	color: #f4cb42;
+}
+
+.whiteText {
+    color: white;
+}
+
+.fontSize25px {
+    font-size: 25px;
+}
+
+.fontSize35px {
+    font-size: 35px;
+}
+
+/* ID's */
+#map {
+	height: 800px;
+    width: 100%;
+}
+
+#mainHeader {
+	color: blue;
+  font-family: "Times New Roman", Times, serif;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#googleSlide {
+	height: 670px;
+  width: 98%;
+}
+
+/* Tool Bar CSS */
+.icon-bar {
+  width: 100%;
+  background-color: #444444;
+  overflow: auto;
+  margin: 0;
+}
+
+.icon-bar a {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 0px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.iconToolBar {
+	width: 75%;
+	height: 75%;
+	margin-top: 6%;
+}
+
+.homeToolBar {
+	width: 45%;
+	margin-top: 3%;
+}
+
+.toolBarLink {
+    height: 100%;
+}
+
+/* Vertical Menu CSS */
+.vertical-menu-physics {
+    overflow-y: scroll;
+    width: 200px;
+    height: 600px;
+    margin-left: 0;
+    top: 250px;
+}
+        
+.vertical-menu-physics a {
+    background-color: #444444;
+    color: white;
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+}
+        
+.vertical-menu-physics a:hover {
+    background-color: #ccc;
+}
+        
+.vertical-menu-physics a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.vertical-menu-math {
+    overflow-y: auto;
+    width: 200px;
+    height: 300px;
+    margin-left: 0;
+    top: 250px;
+}
+
+.vertical-menu-math a {
+    background-color: #444444;
+    color: white;
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+}
+        
+.vertical-menu-math a:hover {
+    background-color: #ccc;
+}
+        
+.vertical-menu-math a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.vertical-menu-chem {
+    overflow-y: auto;
+    width: 200px;
+    height: 300px;
+    margin-left: 0;
+    top: 250px;
+}
+
+.vertical-menu-chem a {
+    background-color: #444444;
+    color: white;
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+}
+        
+.vertical-menu-chem a:hover {
+    background-color: #ccc;
+}
+        
+.vertical-menu-chem a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.vertical-menu-cs {
+    overflow-y: auto;
+    width: 200px;
+    height: 300px;
+    margin-left: 0;
+    top: 250px;
+}
+
+.vertical-menu-cs a {
+    background-color: #444444;
+    color: white;
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+}
+        
+.vertical-menu-cs a:hover {
+    background-color: #ccc;
+}
+        
+.vertical-menu-cs a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* CSS for Div of Content */
+.courseDiv {
+    background-color: #444444;
+    overflow-y:auto;
+    margin-left: 200px;
+}
+
+.colHeight {
+    height: 500px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Sticky bar CSS */
+.sticky {
+  position: fixed;
+  top: 5px;
+}
+
+.content {
+  padding: 0px;
+}
+
+.sticky + .content {
+  padding-top: 10px;
+}
+
+#navbar {
+  scroll-behavior: auto;
+}
+
+.courseLogo {
+  width: 35px;
+  height: 35px;
+}
